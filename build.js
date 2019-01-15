@@ -8,28 +8,21 @@ function themeBuilder(folder, outputFile) {
   let base = yaml.safeLoad(readFileSync(folder + '/base.yaml', 'utf-8'));
   // Additional theme definitions to combine with base syntax token styles
   let workbench = yaml.safeLoad(readFileSync(folder + '/workbench.yaml', 'utf-8'));
-  let template = yaml.safeLoad(readFileSync(folder + '/template.yaml', 'utf-8'));
-  let markdown = yaml.safeLoad(readFileSync(folder + '/markdown.yaml', 'utf-8'));
-  let hexdump = yaml.safeLoad(readFileSync(folder + '/hexdump.yaml', 'utf-8'));
-  let html = yaml.safeLoad(readFileSync(folder + '/html.yaml', 'utf-8'));
-  let css = yaml.safeLoad(readFileSync(folder + '/css.yaml', 'utf-8'));
-  let cpp = yaml.safeLoad(readFileSync(folder + '/cpp.yaml', 'utf-8'));
-  let regex = yaml.safeLoad(readFileSync(folder + '/regex.yaml', 'utf-8'));
-  let json = yaml.safeLoad(readFileSync(folder + '/json.yaml', 'utf-8'));
-  let jsdoc = yaml.safeLoad(readFileSync(folder + '/jsdoc.yaml', 'utf-8'));
   // Merge workbench styles
   Object.assign(base, workbench);
   // Merge additional syntax token styles
   base.tokenColors = base.tokenColors.concat(
-    template,
-    markdown,
-    hexdump,
-    html,
-    css,
-    cpp,
-    regex,
-    json,
-    jsdoc
+    yaml.safeLoad(readFileSync(folder + '/template.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/markdown.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/hexdump.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/html.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/css.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/cpp.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/python.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/regex.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/json.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/jsdoc.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/yaml.yaml', 'utf-8'))
   );
 
   // Stringify all of the combined theme styles so we can run string regexes on it to
