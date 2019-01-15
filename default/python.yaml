@@ -20,7 +20,7 @@
     foreground: _light-yellow
     fontStyle: bold
 
-- scope: meta.item-access.python
+- scope: meta.item-access.python, variable.parameter.function-call.python
   settings:
     foreground: _light-pink
     fontStyle: ''
