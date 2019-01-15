@@ -61,6 +61,7 @@
 - scope: documentation.line.triple-slash.cpp, documentation.block.c
   settings:
     foreground: _light-blue
+    fontStyle: italic
 
 - scope: documentation.keyword.match.cpp
   settings:
