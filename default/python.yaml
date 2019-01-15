@@ -15,7 +15,7 @@
   settings:
     foreground: _light-blue
 
-- scope: support.variable.magic.python, support.function.magic.python, support.function.builtin.python
+- scope: support.function.magic.python, support.function.builtin.python
   settings:
     foreground: _light-yellow
     fontStyle: bold
@@ -25,7 +25,7 @@
     foreground: _light-pink
     fontStyle: ''
 
-- scope: entity.name.type.class.python, entity.name.function.python
+- scope: entity.name.type.class.python, entity.name.function.python, support.variable.magic.python
   settings:
     foreground: _light-magenta
     fontStyle: ''

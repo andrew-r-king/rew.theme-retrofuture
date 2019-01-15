@@ -561,7 +561,7 @@
       }
     },
     {
-      "scope": "support.variable.magic.python, support.function.magic.python, support.function.builtin.python",
+      "scope": "support.function.magic.python, support.function.builtin.python",
       "settings": {
         "foreground": "#fef679",
         "fontStyle": "bold"
@@ -575,7 +575,7 @@
       }
     },
     {
-      "scope": "entity.name.type.class.python, entity.name.function.python",
+      "scope": "entity.name.type.class.python, entity.name.function.python, support.variable.magic.python",
       "settings": {
         "foreground": "#fe79b2",
         "fontStyle": ""
