@@ -1,0 +1,143 @@
+$schema: vscode://schemas/color-theme
+author: Andrew King
+name: Retro Future
+semanticClass: theme.retrofuture
+type: dark
+tokenColors:
+- settings:
+    foreground: _base-gray
+    background: '#14161a'
+
+- name: Comment
+  scope: comment
+  settings:
+    fontStyle: italic
+    foreground: '#465173'
+
+- name: String
+  scope: string
+  settings:
+    foreground: _light-green
+
+- name: String Unquoted
+  scope: string.unquoted
+  settings:
+    foreground: _light-pink
+
+- name: Number
+  scope: constant.numeric
+  settings:
+    foreground: _cyan
+
+- name: Built-in constant
+  scope: constant.language
+  settings:
+    foreground: _light-green
+
+- name: User-defined constant
+  scope: constant.character, constant.other
+  settings:
+    foreground: _light-green
+
+- name: Variable
+  scope: variable
+  settings:
+    fontStyle: bold
+    foreground: _light-blue
+
+- name: Keyword
+  scope: keyword
+  settings:
+    foreground: _orange
+    fontStyle: bold
+
+- name: Storage
+  scope: storage
+  settings:
+    fontStyle: bold
+    foreground: _orange
+
+- name: Class name
+  scope: entity.name.class
+  settings:
+    fontStyle:  bold
+    foreground: _light-indigo
+
+- name: Inherited class
+  scope: entity.other.inherited-class
+  settings:
+    fontStyle: ''
+    foreground: _light-indigo
+
+- name: Function name
+  scope: entity.name.function
+  settings:
+    foreground: _light-indigo
+
+- name: Function argument
+  scope: variable.parameter
+  settings:
+    fontStyle: ''
+    foreground: '#45B8FF'
+
+- name: Tag name
+  scope: entity.name.tag
+  settings:
+    fontStyle: ''
+    foreground: _light-indigo
+
+- name: Tag attribute
+  scope: entity.other.attribute-name
+  settings:
+    foreground: _light-indigo
+
+- name: Library function
+  scope: support.function
+  settings:
+    foreground: '#45B8FF'
+
+- name: Library constant
+  scope: support.constant
+  settings:
+    fontStyle: ''
+    foreground: '#45B8FF'
+
+- name: Library class/type
+  scope: support.type, support.class
+  settings:
+    fontStyle: ''
+    foreground: '#45B8FF'
+
+- name: Library variable
+  scope: support.other.variable
+  settings:
+    fontStyle: ''
+
+- name: Invalid
+  scope: invalid
+  settings:
+    background: '#FF3392'
+    fontStyle: ''
+    foreground: '#F1ADD2'
+
+- name: Invalid deprecated
+  scope: invalid.deprecated
+  settings:
+    background: '#615FFF'
+    foreground: '#B2AFF0'
+
+- scope: token.info-token
+  settings:
+    foreground: '#6796e6'
+
+- scope: token.warn-token
+  settings:
+    foreground: '#cd9731'
+
+- scope: token.error-token
+  settings:
+    foreground: '#f44747'
+
+- scope: token.debug-token
+  settings:
+    foreground: '#b267e6'

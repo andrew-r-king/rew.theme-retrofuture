@@ -1,0 +1,74 @@
+- scope: punctuation.separator.namespace.access.cpp, punctuation.separator.pointer-access.c, punctuation.separator.dot-access.c, punctuation.separator.delimiter.c, keyword.operator.c, punctuation.destructor.c, punctuation.terminator.statement.c, punctuation.switch.case.colon.c, punctuation.inheritance.cpp, punctuation.section.parameters.begin.bracket.round.c, punctuation.section.parameters.end.bracket.round.c, punctuation.section.parens.begin.bracket.round.c, punctuation.section.parens.end.bracket.round.c, punctuation.section.arguments.begin.bracket.round.c, punctuation.section.arguments.end.bracket.round.c, punctuation.section.block.begin.bracket.curly.c, punctuation.section.block.end.bracket.curly.c,punctuation.section.block.begin.bracket.curly.cpp,punctuation.section.block.end.bracket.curly.cpp, punctuation.definition.parameters.c, punctuation.definition.parameters.begin.c, punctuation.definition.parameters.end.c, punctuation.definition.begin.bracket.square.c, punctuation.definition.end.bracket.square.c, punctuation.terminator.statement.c, keyword.operator.comparison.c, keyword.operator.increment.c, keyword.operator.decrement.c, keyword.operator.ternary.c, keyword.operator.assignment.c, keyword.operator.assignment.compound.c, keyword.operator.bitwise.shift.c, keyword.operator.assignment.compound.bitwise.c
+  settings:
+    foreground: _base-gray
+
+- scope: keyword.control.directive, string.quoted.double.include.c, entity.name.function.preprocessor.c, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp
+  settings:
+    foreground: _magenta
+    fontStyle: ''
+
+- scope: constant.character.escape.cpp, entity.name.function.c, meta.function.constructor.cpp
+  settings:
+    foreground: _light-blue
+
+- scope: variable.other.c, support.type.posix-reserved.c
+  settings:
+    foreground: _very-light-gray
+    fontStyle: ''
+
+- scope: constant.other.placeholder.c, support.type.sys-types.c, support.type.sys-types.cpp
+  settings:
+    foreground: _blue
+    fontStyle: bold
+
+- scope: constant.language.c, keyword.operator.cast.cpp, keyword.operator.logical.c
+  settings:
+    foreground: _orange
+    fontStyle: bold
+
+- scope: storage.modifier
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
+
+- scope: constant.numeric.c
+  settings:
+    foreground: _light-purple
+
+- scope: variable.other.member.c
+  settings:
+    foreground: _light-pink
+    fontStyle: ''
+
+- scope: keyword.lib.segment, entity.name.type.cpp, entity.name.type.inherited.cpp
+  settings:
+    foreground: _light-magenta
+    fontStyle: ''
+
+- scope: keyword.lib.segment-stl, keyword.win.res, support.function.C99.c
+  settings:
+    foreground: _light-yellow
+    fontStyle: bold
+
+- scope: constant.language.nullptr.cpp
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+
+- scope: documentation.line.triple-slash.cpp, documentation.block.c
+  settings:
+    foreground: _light-blue
+
+- scope: documentation.keyword.match.cpp
+  settings:
+    foreground: _purple
+    fontStyle: bold
+
+- scope: documentation.keyword.error.cpp
+  settings:
+    foreground: _red
+    fontStyle: bold
+
+- scope: entity.name.type.class.c
+  settings:
+    foreground: _light-magenta

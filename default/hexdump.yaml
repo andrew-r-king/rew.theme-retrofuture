@@ -1,0 +1,3 @@
+- scope: keyword.address.hex
+  settings:
+    foreground: _magenta

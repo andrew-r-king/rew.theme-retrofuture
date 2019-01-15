@@ -1,0 +1,84 @@
+colors:
+  focusBorder: '#00000000'
+  #
+  input.background: '#ffffff09'
+  input.border: '#b0b1d80f'
+  #
+  list.focusBackground: '#b0b1d833'
+  list.focusForeground: _white
+  list.activeSelectionBackground: '#b0b1d833'
+  list.activeSelectionForeground: _white
+  list.inactiveSelectionBackground: '#b0b1d833'
+  list.inactiveSelectionForeground: _white
+  list.hoverBackground: '#b0b1d813'
+  #
+  badge.foreground: _white
+  badge.background: _magenta
+  #
+  scrollbar.shadow: '#00000067'
+  scrollbarSlider.background: '#ffffff09'
+  scrollbarSlider.hoverBackground: '#ffffff18'
+  scrollbarSlider.activeBackground: '#ffffff13'
+  #
+  editor.background: '#14161a'
+  editor.foreground: _white
+  editor.selectionBackground: '#333470'
+  editor.lineHighlightBackground: '#ccccff07'
+  editorCursor.foreground: '#6a819e'
+  editorWhitespace.foreground: '#282f40'
+  editorLineNumber.foreground: '#ccccff31'
+  editorIndentGuide.background: '#000000aa'
+  editorIndentGuide.activeBackground: _light-pink
+  #
+  tab.activeBackground: '#15171b'
+  tab.inactiveBackground: _black-blue
+  tab.inactiveForeground: '#ffffff88'
+  tab.border: '#ffffff00'
+  tab.activeBorder: _light-pink
+  tab.activeBorderTop: '#ffffff19'
+  #
+  editorGroupHeader.tabsBackground: _black-blue
+  editorGroupHeader.tabsBorder: '#14161a'
+  editorGroup.border: '#ffffff13'
+  #
+  activityBar.background: _black-blue
+  activityBar.foreground: '#ffffff76'
+  activityBarBadge.background: _magenta
+  activityBarBadge.foreground: _white
+  #
+  sideBar.background: _black-blue
+  sideBar.foreground: '#ffffffcc'
+  sideBar.border: '#000000aa'
+  sideBarTitle.foreground: '#ffffff88'
+  sideBarSectionHeader.background: _black-blue
+  sideBarSectionHeader.foreground: '#ffffff94'
+  #
+  titleBar.inactiveForeground: '#ffffff67'
+  titleBar.activeBackground: _black-blue
+  titleBar.inactiveBackground: _black-blue
+  #
+  statusBar.noFolderBackground: _black-blue
+  statusBar.noFolderForeground: _white
+  statusBar.background: _light-indigo
+  statusBar.foreground: _indigo
+  statusBar.debuggingBackground: _magenta
+  statusBar.debuggingForeground: _black
+  #
+  terminal.background: '#000000'
+  terminalCursor.background: '#E6E6E6'
+  terminalCursor.foreground: '#FF4B82'
+  terminal.ansiBlue: '#45A9F9'
+  terminal.ansiBrightBlack: '#757575'
+  terminal.ansiBrightBlue: '#6FC1FF'
+  terminal.ansiBrightCyan: '#BCAAFE'
+  terminal.ansiBrightGreen: '#19f9d8'
+  terminal.ansiBrightMagenta: '#FF9AC1'
+  terminal.ansiBrightRed: '#FF2C6D'
+  terminal.ansiBrightWhite: '#E6E6E6'
+  terminal.ansiBrightYellow: '#FFCC95'
+  terminal.ansiCyan: '#B084EB'
+  terminal.ansiGreen: '#19f9d8'
+  terminal.ansiMagenta: '#FF75B5'
+  terminal.ansiRed: '#FF2C6D'
+  terminal.ansiWhite: '#CDCDCD'
+  terminal.ansiYellow: '#FFB86C'

@@ -1,1 +1,1 @@
-# rew.theme-retrofuture
+# VS Code Theme: Retro Future

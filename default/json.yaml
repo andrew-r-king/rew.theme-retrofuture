@@ -1,0 +1,5 @@
+# Json bool
+- scope: constant.language.json
+  settings:
+    foreground: _orange
+    fontStyle: bold

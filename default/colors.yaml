@@ -1,0 +1,21 @@
+_foreground-default: '#bdd6db'
+_white: '#ffffff'
+_black: '#000000'
+
+_base-gray: '#8599b3'
+
+_black-blue: '#0c0e12'
+
+_orange: '#f6bb5e'
+_magenta: '#ff4a98'
+_cyan: '#0afafa'
+_navy: '#3a8cc7'
+_indigo: '#322d8b'
+
+_light-green: '#6ffba4'
+_light-pink: '#f589ff'
+_light-yellow: '#fef679'
+_light-magenta: '#fe79b2'
+_light-indigo: '#7f83ff'
+_light-blue: '#458bff'
+
