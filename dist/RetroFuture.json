@@ -392,6 +392,12 @@
       }
     },
     {
+      "scope": "punctuation.separator.key-value.html",
+      "settings": {
+        "foreground": "#8599b3"
+      }
+    },
+    {
       "scope": "meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade",
       "settings": {
         "foreground": "#ff4a98"
@@ -401,6 +407,13 @@
       "scope": "entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html",
       "settings": {
         "foreground": "#ff4a98"
+      }
+    },
+    {
+      "scope": "punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.tag.html",
+      "settings": {
+        "foreground": "#7f83ff",
+        "fontStyle": ""
       }
     },
     {
@@ -542,7 +555,7 @@
       }
     },
     {
-      "scope": "punctuation.terminator.statement.js, punctuation.accessor.js, meta.brace.round.js, punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js, keyword.operator.assignment.js, punctuation.separator.parameter.js, punctuation.definition.binding-pattern.object.js, punctuation.separator.key-value.js, meta.brace.square.js, keyword.operator.arithmetic.js, keyword.operator.comparison.js, storage.type.function.arrow.js",
+      "scope": "punctuation.terminator.statement.js, punctuation.accessor.js, meta.brace.round.js, punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js, keyword.operator.assignment.js, punctuation.separator.parameter.js, punctuation.definition.binding-pattern.object.js, punctuation.separator.key-value.js, meta.brace.square.js, keyword.operator.arithmetic.js, keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.relational.js, keyword.operator.increment.js",
       "settings": {
         "foreground": "#8599b3"
       }
@@ -767,7 +780,20 @@
     {
       "scope": "comment.block.documentation",
       "settings": {
-        "fontStyle": "normal"
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "storage.type.class.jsdoc",
+      "settings": {
+        "foreground": "#7f83ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc",
+      "settings": {
+        "foreground": "#8599b3"
       }
     },
     {
@@ -793,7 +819,14 @@
     {
       "scope": "comment.block storage.custom, variable.other.jsdoc, variable.other.jsdoc punctuation.definition.string",
       "settings": {
-        "foreground": "#f589ff"
+        "foreground": "#f589ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "entity.name.type.instance.jsdoc",
+      "settings": {
+        "foreground": "#fe79b2"
       }
     },
     {
