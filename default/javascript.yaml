@@ -37,10 +37,15 @@
     foreground: _light-pink
     fontStyle: ''
 
-- scope: support.class.builtin.js, support.class.component.js, entity.name.type.class.js, entity.other.inherited-class.js
+- scope: support.class.builtin.js, entity.name.type.class.js
   settings:
     foreground: _light-magenta
     fontStyle: ''
+
+- scope: support.class.component.js
+  settings:
+    foreground: _light-magenta
+    fontStyle: italic
 
 - scope: storage.modifier.js
   settings:
