@@ -542,7 +542,7 @@
       }
     },
     {
-      "scope": "punctuation.terminator.statement.js, punctuation.accessor.js, meta.brace.round.js, punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js, keyword.operator.assignment.js, punctuation.separator.parameter.js",
+      "scope": "punctuation.terminator.statement.js, punctuation.accessor.js, meta.brace.round.js, punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js, keyword.operator.assignment.js, punctuation.separator.parameter.js, punctuation.definition.binding-pattern.object.js, punctuation.separator.key-value.js, meta.brace.square.js, keyword.operator.arithmetic.js, keyword.operator.comparison.js, storage.type.function.arrow.js",
       "settings": {
         "foreground": "#8599b3"
       }
@@ -562,7 +562,7 @@
       }
     },
     {
-      "scope": "keyword.control.export.js",
+      "scope": "keyword.control.export.js, support.type.object.module.js",
       "settings": {
         "foreground": "#7f83ff",
         "fontStyle": "bold"
@@ -583,7 +583,7 @@
       }
     },
     {
-      "scope": "entity.name.function.js, support.function.dom.js, support.function.promise.js, support.function.js",
+      "scope": "entity.name.function.js, support.function.dom.js, support.function.promise.js, support.function.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js",
       "settings": {
         "foreground": "#458bff",
         "fontStyle": ""
@@ -597,7 +597,7 @@
       }
     },
     {
-      "scope": "support.class.builtin.js, entity.name.type.class.js",
+      "scope": "support.class.builtin.js, entity.name.type.class.js, entity.name.type.js",
       "settings": {
         "foreground": "#fe79b2",
         "fontStyle": ""
@@ -615,6 +615,39 @@
       "settings": {
         "foreground": "#f6bb5e",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "punctuation.operation.graphql, meta.brace.square.graphql, punctuation.colon.graphql, meta.brace.round.graphql",
+      "settings": {
+        "foreground": "#8599b3"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string.graphql",
+      "settings": {
+        "foreground": "#6ffba4"
+      }
+    },
+    {
+      "scope": "support.type.graphql",
+      "settings": {
+        "foreground": "#fe79b2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "variable.graphql",
+      "settings": {
+        "foreground": "#7f83ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "support.type.builtin.graphql",
+      "settings": {
+        "foreground": "#f589ff",
+        "fontStyle": ""
       }
     },
     {

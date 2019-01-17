@@ -1,0 +1,22 @@
+- scope: punctuation.operation.graphql, meta.brace.square.graphql, punctuation.colon.graphql, meta.brace.round.graphql
+  settings:
+    foreground: _base-gray
+
+- scope: punctuation.definition.string.graphql
+  settings:
+    foreground: _light-green
+
+- scope: support.type.graphql
+  settings:
+    foreground: _light-magenta
+    fontStyle: ''
+
+- scope: variable.graphql
+  settings:
+    foreground: _light-indigo
+    fontStyle: ''
+
+- scope: support.type.builtin.graphql
+  settings:
+    foreground: _light-pink
+    fontStyle: ''
