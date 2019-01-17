@@ -18,6 +18,7 @@ function themeBuilder(folder, outputFile) {
     yaml.safeLoad(readFileSync(folder + '/html.yaml', 'utf-8')),
     yaml.safeLoad(readFileSync(folder + '/css.yaml', 'utf-8')),
     yaml.safeLoad(readFileSync(folder + '/cpp.yaml', 'utf-8')),
+    yaml.safeLoad(readFileSync(folder + '/javascript.yaml', 'utf-8')),
     yaml.safeLoad(readFileSync(folder + '/python.yaml', 'utf-8')),
     yaml.safeLoad(readFileSync(folder + '/regex.yaml', 'utf-8')),
     yaml.safeLoad(readFileSync(folder + '/json.yaml', 'utf-8')),
