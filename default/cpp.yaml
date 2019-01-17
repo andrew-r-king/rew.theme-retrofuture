@@ -34,9 +34,10 @@
     foreground: _light-indigo
     fontStyle: bold
 
-- scope: constant.numeric.c
+- scope: constant.other.variable.mac-classic.c
   settings:
-    foreground: _light-purple
+    foreground: _light-green
+    fontStyle: ''
 
 - scope: variable.other.member.c
   settings:

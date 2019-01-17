@@ -494,9 +494,10 @@
       }
     },
     {
-      "scope": "constant.numeric.c",
+      "scope": "constant.other.variable.mac-classic.c",
       "settings": {
-        "foreground": "_light-purple"
+        "foreground": "#6ffba4",
+        "fontStyle": ""
       }
     },
     {
