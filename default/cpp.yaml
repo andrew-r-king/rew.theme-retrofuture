@@ -44,7 +44,7 @@
     foreground: _light-blue
     fontStyle: bold
 
-- scope: documentation.line.triple-slash.cpp, documentation.block.c, punctuation.definition.documentation.cpp
+- scope: documentation.line.triple-slash.cpp, documentation.block.c, punctuation.definition.documentation.cpp, punctuation.definition.documentation.begin.cpp, punctuation.definition.documentation.end.cpp
   settings:
     foreground: _blue
     fontStyle: italic
