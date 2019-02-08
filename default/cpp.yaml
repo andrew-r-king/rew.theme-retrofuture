@@ -10,7 +10,7 @@
     foreground: _magenta
     fontStyle: ''
 
-- scope: storage.modifier.c, storage.modifier.cpp
+- scope: storage.modifier.c, storage.modifier.cpp, storage.modifier.label.c
   settings:
     foreground: _light-indigo
     fontStyle: bold
