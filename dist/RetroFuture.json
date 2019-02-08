@@ -169,7 +169,7 @@
       }
     },
     {
-      "scope": "support.class.builtin, entity.name.type, constant.other.caps",
+      "scope": "support.class.builtin, entity.name.type",
       "settings": {
         "foreground": "#fe79b2"
       }
@@ -202,7 +202,7 @@
       }
     },
     {
-      "scope": "punctuation.definition.directive",
+      "scope": "punctuation.definition.directive, constant.other.caps, support.type.exception",
       "settings": {
         "foreground": "#ff4a98"
       }
@@ -521,6 +521,61 @@
       "scope": "graphql.description.SINGLELINE string.description.graphql, graphql.description.SINGLELINE punctuation.definition.string.graphql",
       "settings": {
         "foreground": "#465173"
+      }
+    },
+    {
+      "scope": "meta.function-call.generic.python, meta.function-call.python",
+      "settings": {
+        "foreground": "#458bff"
+      }
+    },
+    {
+      "scope": "entity.name.type.class.python, entity.name.function.python, support.variable.magic.python",
+      "settings": {
+        "foreground": "#fe79b2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "support.function.magic.python, support.function.builtin.python",
+      "settings": {
+        "foreground": "#fef679",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.function-call.arguments.python, meta.item-access.arguments.python",
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "variable.parameter.function.language.python, support.type.python",
+      "settings": {
+        "foreground": "#7f83ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "scope": "variable.parameter.function.language.special.self.python, variable.language.special.self.python, variable.legacy.builtin.python",
+      "settings": {
+        "foreground": "#458bff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "string.quoted.docstring.multi.python",
+      "settings": {
+        "foreground": "#458bff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.item-access.python, variable.parameter.function-call.python",
+      "settings": {
+        "foreground": "#f589ff",
+        "fontStyle": ""
       }
     },
     {

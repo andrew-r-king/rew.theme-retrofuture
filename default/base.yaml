@@ -125,7 +125,7 @@ tokenColors:
   settings:
     foreground: _light-pink
 
-- scope: support.class.builtin, entity.name.type, constant.other.caps
+- scope: support.class.builtin, entity.name.type
   settings:
     foreground: _light-magenta
 
@@ -148,7 +148,7 @@ tokenColors:
   settings:
     foreground: _orange
 
-- scope: punctuation.definition.directive
+- scope: punctuation.definition.directive, constant.other.caps, support.type.exception
   settings:
     foreground: _magenta
 
