@@ -1,11 +1,11 @@
 # -----------------------------------------------------------------------------
-# Javascript
+# Typescript
 # -----------------------------------------------------------------------------
-- scope: entity.other.inherited-class.js
+- scope: entity.other.inherited-class.ts, entity.other.inherited-class.tsx
   settings:
     foreground: _white
 
-- scope: storage.modifier.js
+- scope: storage.modifier.ts, storage.modifier.tsx
   settings:
     foreground: _orange
     fontStyle: bold

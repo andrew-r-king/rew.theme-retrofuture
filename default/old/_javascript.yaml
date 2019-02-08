@@ -1,0 +1,56 @@
+# -----------------------------------------------------------------------------
+# Javascript
+# -----------------------------------------------------------------------------
+- scope: punctuation.terminator.statement.js, punctuation.accessor.js, meta.brace.round.js, punctuation.separator.comma.js, punctuation.definition.block.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js, keyword.operator.assignment.js, punctuation.separator.parameter.js, punctuation.definition.binding-pattern.object.js, punctuation.separator.key-value.js, meta.brace.square.js, keyword.operator.arithmetic.js, keyword.operator.comparison.js, storage.type.function.arrow.js, keyword.operator.relational.js, keyword.operator.increment.js
+  settings:
+    foreground: _base-gray
+
+- scope: keyword.control.import.js, keyword.control.from.js, keyword.control.as.js
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+
+- scope: variable.other.readwrite.alias.js, variable.other.object.js, variable.other.constant.js, variable.other.readwrite.js, entity.other.inherited-class.js, variable.parameter.js, support.variable.dom.js, support.class.console.js
+  settings:
+    foreground: _white
+    fontStyle: ''
+
+- scope: keyword.control.export.js, support.type.object.module.js
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
+
+- scope: punctuation.definition.tag.begin.js, punctuation.definition.tag.end.js
+  settings:
+    foreground: _light-indigo
+    fontStyle: ''
+
+- scope: support.function.console.js, support.variable.property.dom.js
+  settings:
+    foreground: _light-yellow
+    fontStyle: bold
+
+- scope: entity.name.function.js, support.function.dom.js, support.function.promise.js, support.function.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js
+  settings:
+    foreground: _blue
+    fontStyle: ''
+
+- scope: variable.other.object.property.js, variable.other.property.js
+  settings:
+    foreground: _light-pink
+    fontStyle: ''
+
+- scope: support.class.builtin.js, entity.name.type.class.js, entity.name.type.js
+  settings:
+    foreground: _light-magenta
+    fontStyle: ''
+
+- scope: support.class.component.js
+  settings:
+    foreground: _light-magenta
+    fontStyle: italic
+
+- scope: storage.modifier.js
+  settings:
+    foreground: _orange
+    fontStyle: bold

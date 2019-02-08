@@ -16,10 +16,14 @@
 
 - scope: variable.graphql
   settings:
-    foreground: _light-indigo
+    foreground: _light-blue
     fontStyle: ''
 
 - scope: support.type.builtin.graphql
   settings:
     foreground: _light-pink
     fontStyle: ''
+
+- scope: graphql.description.SINGLELINE string.description.graphql, graphql.description.SINGLELINE punctuation.definition.string.graphql
+  settings:
+    foreground: '#465173'

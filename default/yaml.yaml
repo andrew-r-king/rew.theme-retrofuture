@@ -1,7 +1,6 @@
 # -----------------------------------------------------------------------------
 # YAML
 # -----------------------------------------------------------------------------
-# Parent match
-- scope: punctuation.definition.block.sequence.item.yaml, punctuation.separator.key-value.mapping.yaml
+- scope: entity.name.tag.yaml
   settings:
-    foreground: _base-gray
+    foreground: _light-blue

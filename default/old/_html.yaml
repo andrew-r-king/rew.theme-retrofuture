@@ -1,0 +1,6 @@
+# -----------------------------------------------------------------------------
+# HTML
+# -----------------------------------------------------------------------------
+# - scope: meta.tag.structure.any.html, meta.tag.other.html, entity.name.tag.html, meta.tag.metadata.script.html, entity.name.tag.jade, entity.name.tag.inline.any.html, entity.name.tag.other.html, entity.name.tag.block.any.html
+#   settings:
+#     foreground: _magenta

@@ -5,36 +5,34 @@
   settings:
     fontStyle: ''
 
-- scope: storage.type.class.jsdoc
+- scope: storage.type.class.jsdoc, punctuation.definition.block.tag.jsdoc
   settings:
     foreground: _light-indigo
     fontStyle: bold
 
-- scope: punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc
-  settings:
-    foreground: _base-gray
-
-- scope: entity.name.type.instance.jsdoc punctuation.definition
-  settings:
-    foreground: _light-orange
-    fontStyle: italic
+# - scope: punctuation.definition.bracket.curly.begin.jsdoc, punctuation.definition.bracket.curly.end.jsdoc
+#   settings:
+#     foreground: _base-gray
 
 - scope: entity.name.type.instance.jsdoc
   settings:
-    foreground: _lighter-gray
     fontStyle: italic
 
-- scope: comment.block storage
-  settings:
-    foreground: _light-orange
+# - scope: entity.name.type.instance.jsdoc
+#   settings:
+#     foreground: _lighter-gray
+#     fontStyle: italic
 
-- scope: comment.block storage.custom, variable.other.jsdoc, variable.other.jsdoc punctuation.definition.string
+# - scope: comment.block storage
+#   settings:
+#     foreground: _light-orange
+
+- scope: variable.other.jsdoc
   settings:
     foreground: _light-pink
-    fontStyle: ''
 
-- scope: entity.name.type.instance.jsdoc
-  settings:
-    foreground: _light-magenta
+# - scope: entity.name.type.instance.jsdoc
+#   settings:
+#     foreground: _light-magenta
 
 

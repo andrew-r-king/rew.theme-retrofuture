@@ -1,0 +1,13 @@
+# -----------------------------------------------------------------------------
+# Shell
+# -----------------------------------------------------------------------------
+- scope: variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.positional.shell
+  settings:
+    foreground: _blue
+    fontStyle: bold
+
+- scope: storage.modifier.shell
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
+

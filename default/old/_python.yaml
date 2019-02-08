@@ -13,7 +13,7 @@
 
 - scope: meta.function-call.generic.python, meta.function-call.python
   settings:
-    foreground: _light-blue
+    foreground: _blue
 
 - scope: support.function.magic.python, support.function.builtin.python
   settings:
@@ -46,7 +46,7 @@
 
 - scope: variable.parameter.function.language.special.self.python, variable.language.special.self.python
   settings:
-    foreground: _light-blue
+    foreground: _blue
     fontStyle: bold
 
 - scope: constant.language.python
@@ -61,5 +61,5 @@
 
 - scope: string.quoted.docstring.multi.python
   settings:
-    foreground: _light-blue
+    foreground: _blue
     fontStyle: italic
