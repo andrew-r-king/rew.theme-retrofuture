@@ -579,6 +579,18 @@
       }
     },
     {
+      "scope": "variable.other.lua",
+      "settings": {
+        "foreground": "#f589ff"
+      }
+    },
+    {
+      "scope": "keyword.operator.lua",
+      "settings": {
+        "foreground": "#8599b3"
+      }
+    },
+    {
       "scope": "string.regexp",
       "settings": {
         "foreground": "#458bff"

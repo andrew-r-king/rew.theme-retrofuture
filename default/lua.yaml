@@ -1,0 +1,11 @@
+# -----------------------------------------------------------------------------
+# Lua
+# -----------------------------------------------------------------------------
+- scope: variable.other.lua
+  settings:
+    foreground: _light-pink
+
+- scope: keyword.operator.lua
+  settings:
+    foreground: _base-gray
+
