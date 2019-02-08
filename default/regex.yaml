@@ -13,3 +13,9 @@
 - scope: string.regexp keyword.operator
   settings:
     foreground: _light-pink
+
+- scope: punctuation.parenthesis.begin.regexp, punctuation.parenthesis.end.regexp
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+

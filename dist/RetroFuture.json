@@ -579,6 +579,20 @@
       }
     },
     {
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#f6bb5e",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "#f589ff",
+        "fontStyle": ""
+      }
+    },
+    {
       "scope": "variable.other.lua",
       "settings": {
         "foreground": "#f589ff"
@@ -607,6 +621,13 @@
       "scope": "string.regexp keyword.operator",
       "settings": {
         "foreground": "#f589ff"
+      }
+    },
+    {
+      "scope": "punctuation.parenthesis.begin.regexp, punctuation.parenthesis.end.regexp",
+      "settings": {
+        "foreground": "#ff4a98",
+        "fontStyle": "bold"
       }
     },
     {

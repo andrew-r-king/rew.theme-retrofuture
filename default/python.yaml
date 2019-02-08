@@ -39,3 +39,14 @@
   settings:
     foreground: _light-pink
     fontStyle: ''
+
+- scope: constant.language.python
+  settings:
+    foreground: _orange
+    fontStyle: bold
+
+- scope: constant.character.format.placeholder.other.python
+  settings:
+    foreground: _light-pink
+    fontStyle: ''
+
