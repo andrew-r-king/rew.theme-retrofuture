@@ -38,16 +38,16 @@ function themeBuilder(folder, outputFile)
     // replace color variables with color values
     base = JSON.stringify(base, null, 0);
 
-    for (let color in themeColors) {
+    for (let color in themeColors)
         base = base.replace(new RegExp(color + '"', 'g'), themeColors[color] + '"');
-    }
+
 
     // Base file has been extended with additional theme styles and color variables have
     // been replaced with Panda theme values. Write to /dist for consumption.
     writeFile('dist/' + outputFile + '.json', base, err => {
-        if (err) {
+        if (err)
             console.warn(err);
-        }
+
         console.log('Build finished: ' + outputFile);
     });
 }
