@@ -36,7 +36,7 @@ function themeBuilder(folder, outputFile)
 
     // Stringify all of the combined theme styles so we can run string regexes on it to
     // replace color variables with color values
-    base = JSON.stringify(base, null, 2);
+    base = JSON.stringify(base, null, 0);
 
     for (let color in themeColors) {
         base = base.replace(new RegExp(color + '"', 'g'), themeColors[color] + '"');
