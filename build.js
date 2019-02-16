@@ -17,20 +17,21 @@ function themeBuilder(folder, outputFile)
 
     // Merge additional syntax token styles
     base.tokenColors = base.tokenColors.concat(
-        yaml.safeLoad(readFileSync(folder + '/javascript.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/typescript.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/markdown.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/hexdump.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/css.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/cpp.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/makefile.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/shell.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/css.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/glsl.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/graphql.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/python.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/lua.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/regex.yaml', 'utf-8')),
-        yaml.safeLoad(readFileSync(folder + '/json.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/hexdump.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/javascript.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/jsdoc.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/json.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/lua.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/makefile.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/markdown.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/python.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/regex.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/shell.yaml', 'utf-8')),
+        yaml.safeLoad(readFileSync(folder + '/typescript.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/yaml.yaml', 'utf-8'))
     );
 

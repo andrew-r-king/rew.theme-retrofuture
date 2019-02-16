@@ -1,0 +1,11 @@
+# -----------------------------------------------------------------------------
+# GLSL
+# -----------------------------------------------------------------------------
+- scope: storage.modifier.glsl
+  settings:
+    foreground: _light-indigo
+
+- scope: support.variable.glsl
+  settings:
+    foreground: _light-green
+
