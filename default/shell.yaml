@@ -11,3 +11,9 @@
     foreground: _light-indigo
     fontStyle: bold
 
+- scope: keyword.operator.logical.shell
+  settings:
+    foreground: _base-gray
+    fontStyle: normal
+
+
