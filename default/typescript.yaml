@@ -5,7 +5,17 @@
   settings:
     foreground: _white
 
+- scope: keyword.operator.type.annotation.ts
+  settings:
+    foreground: _base-gray
+    fontStyle: normal
+
 - scope: storage.modifier.ts, storage.modifier.tsx
   settings:
     foreground: _orange
     fontStyle: bold
+
+- scope: meta.decorator.ts entity.name.function.ts, meta.decorator.ts variable.other.readwrite.ts
+  settings:
+    foreground: _light-indigo
+    fontStyle: normal

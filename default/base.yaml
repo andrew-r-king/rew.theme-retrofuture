@@ -121,7 +121,7 @@ tokenColors:
     foreground: _light-yellow
     fontStyle: bold
 
-- scope: variable.other.property
+- scope: variable.other.property, support.variable.property
   settings:
     foreground: _light-pink
 
@@ -148,7 +148,7 @@ tokenColors:
   settings:
     foreground: _orange
 
-- scope: punctuation.definition.directive, constant.other.caps, support.type.exception
+- scope: punctuation.definition.directive, constant.other.caps, support.type.exception, variable.other.constant
   settings:
     foreground: _magenta
 
