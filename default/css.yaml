@@ -5,11 +5,11 @@
   settings:
     foreground: _magenta
 
-- scope: support.type.property-name.css
+- scope: support.type.property-name.css, support.type.vendored.property-name.css
   settings:
-    foreground: _base-gray
+    foreground: _white
 
-- scope: variable.scss
+- scope: variable.scss, entity.other.keyframe-offset.css
   settings:
     foreground: _light-pink
 
