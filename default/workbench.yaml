@@ -82,3 +82,11 @@ colors:
   terminal.ansiRed: '#FF2C6D'
   terminal.ansiWhite: '#CDCDCD'
   terminal.ansiYellow: '#FFB86C'
+  #
+  editorError.foreground: _magenta
+  editorWarning.foreground: _orange
+  editorInfo.foreground: _light-green
+  editorHint.foreground: _light-indigo
+  editorOverviewRuler.errorForeground: _magenta
+  editorOverviewRuler.warningForeground: _orange
+  editorOverviewRuler.infoForeground: _light-green
