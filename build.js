@@ -17,6 +17,7 @@ function themeBuilder(folder, outputFile)
 
     // Merge additional syntax token styles
     base.tokenColors = base.tokenColors.concat(
+        yaml.safeLoad(readFileSync(folder + '/cmake.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/cpp.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/css.yaml', 'utf-8')),
         yaml.safeLoad(readFileSync(folder + '/glsl.yaml', 'utf-8')),

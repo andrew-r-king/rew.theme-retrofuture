@@ -1,0 +1,10 @@
+# -----------------------------------------------------------------------------
+# CMake
+# -----------------------------------------------------------------------------
+- scope: keyword.cmake
+  settings:
+    foreground: _blue
+
+- scope: variable.source.cmake
+  settings:
+    foreground: _magenta

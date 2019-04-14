@@ -1,11 +1,16 @@
 # -----------------------------------------------------------------------------
 # GLSL
 # -----------------------------------------------------------------------------
-- scope: storage.modifier.glsl
+- scope: storage.modifier.glsl, storage.modifier.precision.glsl
   settings:
     foreground: _light-indigo
 
 - scope: support.variable.glsl
   settings:
     foreground: _light-green
+
+- scope: keyword.control.hlsl
+  settings:
+    foreground: _magenta
+    fontStyle: ''
 
