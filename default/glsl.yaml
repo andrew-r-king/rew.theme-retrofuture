@@ -12,5 +12,5 @@
 - scope: keyword.control.hlsl
   settings:
     foreground: _magenta
-    fontStyle: ''
+    fontStyle: normal
 

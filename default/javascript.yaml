@@ -9,3 +9,8 @@
   settings:
     foreground: _orange
     fontStyle: bold
+
+- scope: constant.language.undefined.js, constant.language.null.js
+  settings:
+    foreground: _magenta
+    fontStyle: normal

@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 - scope: comment.block.documentation
   settings:
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: storage.type.class.jsdoc, punctuation.definition.block.tag.jsdoc
   settings:

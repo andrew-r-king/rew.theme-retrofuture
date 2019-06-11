@@ -4,12 +4,12 @@
 - scope: punctuation.definition.bold.markdown
   settings:
     foreground: _light-indigo
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: markup.bold.markdown
   settings:
     foreground: _light-green
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: punctuation.definition.heading
   settings:
