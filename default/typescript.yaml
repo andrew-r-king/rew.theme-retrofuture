@@ -23,4 +23,4 @@
 - scope: constant.language.undefined.ts, constant.language.null.ts
   settings:
     foreground: _magenta
-    fontStyle: normal
+    fontStyle: bold
