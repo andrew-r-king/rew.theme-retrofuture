@@ -1,11 +1,11 @@
 # -----------------------------------------------------------------------------
-# Typescript
+# Typescript / Typescript React
 # -----------------------------------------------------------------------------
 - scope: entity.other.inherited-class.ts, entity.other.inherited-class.tsx
   settings:
     foreground: _white
 
-- scope: keyword.operator.type.annotation.ts
+- scope: keyword.operator.type.annotation.ts, keyword.operator.type.annotation.tsx
   settings:
     foreground: _base-gray
     fontStyle: normal
@@ -15,12 +15,12 @@
     foreground: _orange
     fontStyle: bold
 
-- scope: meta.decorator.ts entity.name.function.ts, meta.decorator.ts variable.other.readwrite.ts
+- scope: meta.decorator.ts entity.name.function.ts, meta.decorator.ts variable.other.readwrite.ts, meta.decorator.tsx entity.name.function.tsx, meta.decorator.tsx variable.other.readwrite.tsx
   settings:
     foreground: _light-indigo
     fontStyle: normal
 
-- scope: constant.language.undefined.ts, constant.language.null.ts
+- scope: constant.language.undefined.ts, constant.language.null.ts, constant.language.undefined.tsx, constant.language.null.tsx
   settings:
     foreground: _magenta
     fontStyle: bold

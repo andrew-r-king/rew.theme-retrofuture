@@ -1,16 +1,16 @@
 # -----------------------------------------------------------------------------
-# Javascript
+# Javascript / Javascript React
 # -----------------------------------------------------------------------------
-- scope: entity.other.inherited-class.js
+- scope: entity.other.inherited-class.js, entity.other.inherited-class.jsx
   settings:
     foreground: _white
 
-- scope: storage.modifier.js
+- scope: storage.modifier.js, storage.modifier.jsx
   settings:
     foreground: _orange
     fontStyle: bold
 
-- scope: constant.language.undefined.js, constant.language.null.js
+- scope: constant.language.undefined.js, constant.language.null.js, constant.language.undefined.jsx, constant.language.null.jsx
   settings:
     foreground: _magenta
     fontStyle: bold
