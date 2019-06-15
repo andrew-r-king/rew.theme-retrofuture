@@ -13,7 +13,7 @@
 - scope: variable.other.readwrite.alias.js, variable.other.object.js, variable.other.constant.js, variable.other.readwrite.js, entity.other.inherited-class.js, variable.parameter.js, support.variable.dom.js, support.class.console.js
   settings:
     foreground: _white
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: keyword.control.export.js, support.type.object.module.js
   settings:
@@ -23,7 +23,7 @@
 - scope: punctuation.definition.tag.begin.js, punctuation.definition.tag.end.js
   settings:
     foreground: _light-indigo
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: support.function.console.js, support.variable.property.dom.js
   settings:
@@ -33,17 +33,17 @@
 - scope: entity.name.function.js, support.function.dom.js, support.function.promise.js, support.function.js, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js
   settings:
     foreground: _blue
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: variable.other.object.property.js, variable.other.property.js
   settings:
     foreground: _light-pink
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: support.class.builtin.js, entity.name.type.class.js, entity.name.type.js
   settings:
     foreground: _light-magenta
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: support.class.component.js
   settings:

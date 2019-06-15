@@ -12,17 +12,17 @@
 - scope: support.type.graphql
   settings:
     foreground: _light-magenta
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: variable.graphql
   settings:
     foreground: _light-blue
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: support.type.builtin.graphql
   settings:
     foreground: _light-pink
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: graphql.description.SINGLELINE string.description.graphql, graphql.description.SINGLELINE punctuation.definition.string.graphql
   settings:

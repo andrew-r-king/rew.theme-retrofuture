@@ -8,7 +8,7 @@
 - scope: keyword.control.directive, string.quoted.double.include.c, entity.name.function.preprocessor.c, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp
   settings:
     foreground: _magenta
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: constant.character.escape.cpp, entity.name.function.c, meta.function.constructor.cpp
   settings:
@@ -17,7 +17,7 @@
 - scope: variable.other.c, support.type.posix-reserved.c
   settings:
     foreground: _very-light-gray
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: constant.other.placeholder.c, support.type.sys-types.c, support.type.sys-types.cpp
   settings:
@@ -37,17 +37,17 @@
 - scope: constant.other.variable.mac-classic.c
   settings:
     foreground: _light-green
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: variable.other.member.c
   settings:
     foreground: _light-pink
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: keyword.lib.segment, entity.name.type.cpp, entity.name.type.inherited.cpp
   settings:
     foreground: _light-magenta
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: keyword.lib.segment-stl, keyword.win.res, support.function.C99.c
   settings:

@@ -192,7 +192,7 @@ tokenColors:
 - scope: invalid
   settings:
     background: '#FF3392'
-    fontStyle: ''
+    fontStyle: normal
     foreground: '#F1ADD2'
 
 - scope: invalid.deprecated

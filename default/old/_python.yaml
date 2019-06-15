@@ -23,12 +23,12 @@
 - scope: meta.item-access.python, variable.parameter.function-call.python
   settings:
     foreground: _light-pink
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: entity.name.type.class.python, entity.name.function.python, support.variable.magic.python
   settings:
     foreground: _light-magenta
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: punctuation.definition.string.begin.python, punctuation.definition.string.end.python
   settings:
@@ -37,12 +37,12 @@
 - scope: constant.other.caps.python, support.type.exception.python
   settings:
     foreground: _magenta
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: variable.parameter.function.language.python, support.type.python
   settings:
     foreground: _light-indigo
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: variable.parameter.function.language.special.self.python, variable.language.special.self.python
   settings:
@@ -57,7 +57,7 @@
 - scope: meta.function-call.arguments.python, meta.item-access.arguments.python
   settings:
     foreground: _white
-    fontStyle: ''
+    fontStyle: normal
 
 - scope: string.quoted.docstring.multi.python
   settings:
