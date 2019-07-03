@@ -29,6 +29,7 @@ colors:
   editorLineNumber.foreground: '#ccccff31'
   editorIndentGuide.background: '#000000aa'
   editorIndentGuide.activeBackground: _light-pink
+  tree.indentGuidesStroke: _light-pink
   #
   tab.activeBackground: '#15171b'
   tab.inactiveBackground: _black-blue
