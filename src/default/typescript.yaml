@@ -1,6 +1,6 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Typescript / Typescript React
-# -----------------------------------------------------------------------------
 - scope: entity.other.inherited-class.ts, entity.other.inherited-class.tsx
   settings:
     foreground: _white
@@ -8,7 +8,7 @@
 - scope: keyword.operator.type.annotation.ts, keyword.operator.type.annotation.tsx
   settings:
     foreground: _base-gray
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: storage.modifier.ts, storage.modifier.tsx
   settings:
@@ -18,7 +18,7 @@
 - scope: meta.decorator.ts entity.name.function.ts, meta.decorator.ts variable.other.readwrite.ts, meta.decorator.tsx entity.name.function.tsx, meta.decorator.tsx variable.other.readwrite.tsx
   settings:
     foreground: _light-indigo
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: constant.language.undefined.ts, constant.language.null.ts, constant.language.undefined.tsx, constant.language.null.tsx
   settings:

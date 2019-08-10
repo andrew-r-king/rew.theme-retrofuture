@@ -1,6 +1,6 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Python
-# -----------------------------------------------------------------------------
 - scope: meta.function-call.generic.python, meta.function-call.python
   settings:
     foreground: _blue
@@ -8,7 +8,7 @@
 - scope: entity.name.type.class.python, entity.name.function.python, support.variable.magic.python
   settings:
     foreground: _light-magenta
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: support.function.magic.python, support.function.builtin.python
   settings:
@@ -18,12 +18,12 @@
 - scope: meta.function-call.arguments.python, meta.item-access.arguments.python
   settings:
     foreground: _white
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: variable.parameter.function.language.python, support.type.python
   settings:
     foreground: _light-indigo
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: variable.parameter.function.language.special.self.python, variable.language.special.self.python, variable.legacy.builtin.python
   settings:
@@ -38,7 +38,7 @@
 - scope: meta.item-access.python, variable.parameter.function-call.python
   settings:
     foreground: _light-pink
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: constant.language.python
   settings:
@@ -48,5 +48,4 @@
 - scope: constant.character.format.placeholder.other.python
   settings:
     foreground: _light-pink
-    fontStyle: normal
-
+    fontStyle: ""

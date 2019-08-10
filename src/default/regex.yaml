@@ -1,14 +1,14 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Regex
-# -----------------------------------------------------------------------------
 - scope: string.regexp
   settings:
     foreground: _blue
 
 - scope: string.regexp keyword, string.regexp keyword.control
   settings:
-    foreground: _pink
-    fontStyle: normal
+    foreground: _light-pink
+    fontStyle: ""
 
 - scope: string.regexp keyword.operator
   settings:
@@ -18,4 +18,3 @@
   settings:
     foreground: _magenta
     fontStyle: bold
-

@@ -1,6 +1,6 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # GraphQL
-# -----------------------------------------------------------------------------
 - scope: punctuation.operation.graphql, meta.brace.square.graphql, punctuation.colon.graphql, meta.brace.round.graphql
   settings:
     foreground: _base-gray
@@ -12,18 +12,18 @@
 - scope: support.type.graphql
   settings:
     foreground: _light-magenta
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: variable.graphql
   settings:
     foreground: _light-blue
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: support.type.builtin.graphql
   settings:
     foreground: _light-pink
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: graphql.description.SINGLELINE string.description.graphql, graphql.description.SINGLELINE punctuation.definition.string.graphql
   settings:
-    foreground: '#465173'
+    foreground: "#465173"

@@ -1,6 +1,6 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # Shell
-# -----------------------------------------------------------------------------
 - scope: variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.positional.shell
   settings:
     foreground: _blue
@@ -14,6 +14,4 @@
 - scope: keyword.operator.logical.shell
   settings:
     foreground: _base-gray
-    fontStyle: normal
-
-
+    fontStyle: ""

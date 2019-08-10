@@ -1,39 +1,44 @@
 {
-	"name": "theme-retrofuture",
-	"displayName": "Retro Future Theme (With C++)",
-	"description": "Retro Future Theme for Visual Studio Code.",
-	"version": "0.0.1",
-	"publisher": "catbytes",
-	"engines": {
-		"vscode": "^1.12.0"
-	},
-	"scripts": {
-		"build": "node build.js"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "icon.png",
-	"homepage": "https://github.com/pepsiotaku/",
-	"galleryBanner": {
-		"color": "#2a2c2d",
-		"theme": "dark"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/pepsiotaku/"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Retro Future (With C++)",
-				"uiTheme": "vs-dark",
-				"path": "./dist/RetroFuture.json"
-			}
-		]
-	},
-	"devDependencies": {
-		"@crystal-ball/eslint-config-eloquence": "^1.0.0",
-		"js-yaml": "^3.8.4"
-	}
+    "name": "theme-retrofuture",
+    "displayName": "Retro Future Theme (With C++)",
+    "description": "Retro Future Theme for Visual Studio Code.",
+    "version": "0.0.1",
+    "publisher": "catbytes",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "scripts": {
+        "build": "ts-node ./src/build.ts"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "homepage": "https://github.com/pepsiotaku/",
+    "galleryBanner": {
+        "color": "#2a2c2d",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pepsiotaku/"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Retro Future (With C++)",
+                "uiTheme": "vs-dark",
+                "path": "./dist/RetroFuture.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "@crystal-ball/eslint-config-eloquence": "^1.0.0",
+        "@types/js-yaml": "^3.12.1",
+        "@types/node": "^12.7.1",
+        "js-yaml": "^3.8.4",
+        "prettier": "^1.18.2",
+        "ts-node": "^8.3.0",
+        "typescript": "^3.5.3"
+    }
 }

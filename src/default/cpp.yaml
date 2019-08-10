@@ -1,6 +1,6 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # C/C++
-# -----------------------------------------------------------------------------
 - scope: keyword.operator.c
   settings:
     foreground: _base-gray
@@ -8,7 +8,7 @@
 - scope: keyword.control.directive, entity.name.function.preprocessor.c, string.quoted.double.include.c punctuation.definition.string, string.quoted.double.include.c, string.quoted.other.lt-gt.include.c punctuation.definition.string, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp
   settings:
     foreground: _magenta
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: storage.modifier.c, storage.modifier.cpp, storage.modifier.label.c
   settings:
@@ -18,7 +18,7 @@
 - scope: keyword.lib.segment
   settings:
     foreground: _light-magenta
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: keyword.lib.segment-stl, keyword.win.res, support.function.C99.c
   settings:

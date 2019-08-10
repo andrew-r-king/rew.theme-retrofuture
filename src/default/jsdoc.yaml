@@ -1,9 +1,9 @@
+--- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # JsDoc
-# -----------------------------------------------------------------------------
 - scope: comment.block.documentation
   settings:
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: storage.type.class.jsdoc, punctuation.definition.block.tag.jsdoc
   settings:
@@ -30,9 +30,7 @@
 - scope: variable.other.jsdoc
   settings:
     foreground: _light-pink
-
 # - scope: entity.name.type.instance.jsdoc
 #   settings:
 #     foreground: _light-magenta
-
 

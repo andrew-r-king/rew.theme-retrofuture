@@ -75,7 +75,7 @@
 - scope: string.other.link
   settings:
     foreground: _contrast-gray
-    fontStyle: normal
+    fontStyle: ""
 
 - scope: meta.link.inline.markdown
   settings:
