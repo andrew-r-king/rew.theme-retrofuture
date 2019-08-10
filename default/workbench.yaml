@@ -3,6 +3,8 @@ colors:
   #
   input.background: '#ffffff09'
   input.border: '#b0b1d80f'
+  inputOption.activeBorder: _light-indigo
+  inputOption.activeBackground: _indigo
   #
   list.focusBackground: '#b0b1d833'
   list.focusForeground: _white
