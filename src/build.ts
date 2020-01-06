@@ -34,7 +34,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
 
     base = JSON.stringify(base, null, 0);
 
-    for (let color in themeColors) {
+    for (const color in themeColors) {
         const re = new RegExp(color + '"', "g");
         base = base.replace(re, themeColors[color] + '"');
     }

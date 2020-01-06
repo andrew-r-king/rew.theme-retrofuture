@@ -1,11 +1,16 @@
 --- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # C/C++
+- scope: string.quoted.double.raw.cpp
+  settings:
+    foreground: _white
+    fontStyle: ""
+
 - scope: keyword.operator.c
   settings:
     foreground: _base-gray
 
-- scope: keyword.control.directive, entity.name.function.preprocessor.c, string.quoted.double.include.c punctuation.definition.string, string.quoted.double.include.c, string.quoted.other.lt-gt.include.c punctuation.definition.string, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp
+- scope: keyword.control.directive, entity.name.function.preprocessor.c, string.quoted.double.include.c punctuation.definition.string, string.quoted.double.include.c, string.quoted.other.lt-gt.include.c punctuation.definition.string, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp, meta.string.literal.name.cpp
   settings:
     foreground: _magenta
     fontStyle: ""
