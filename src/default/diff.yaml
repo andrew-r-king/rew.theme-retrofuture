@@ -1,0 +1,22 @@
+# -----------------------------------------------------------------------------
+# Diff
+# -----------------------------------------------------------------------------
+- scope: source.diff
+  settings:
+    foreground: _base-gray
+
+- scope: markup.inserted.diff
+  settings:
+    foreground: _light-green
+
+- scope: markup.deleted.diff
+  settings:
+    foreground: _magenta
+
+- scope: meta.diff.range.unified
+  settings:
+    foreground: _light-blue
+
+- scope: meta.diff.range.unified
+  settings:
+    foreground: _light-blue

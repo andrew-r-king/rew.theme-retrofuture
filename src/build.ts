@@ -16,6 +16,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
         yamlFile("cmake"),
         yamlFile("cpp"),
         yamlFile("css"),
+        yamlFile("diff"),
         yamlFile("glsl"),
         yamlFile("graphql"),
         yamlFile("hexdump"),
