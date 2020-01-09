@@ -1,10 +1,6 @@
 # -----------------------------------------------------------------------------
 # Diff
 # -----------------------------------------------------------------------------
-- scope: source.diff
-  settings:
-    foreground: _base-gray
-
 - scope: markup.inserted.diff
   settings:
     foreground: _light-green
