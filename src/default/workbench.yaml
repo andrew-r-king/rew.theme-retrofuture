@@ -93,3 +93,5 @@ colors:
   editorOverviewRuler.errorForeground: _magenta
   editorOverviewRuler.warningForeground: _orange
   editorOverviewRuler.infoForeground: _light-green
+  #
+  quickInput.background: '#14161a'
