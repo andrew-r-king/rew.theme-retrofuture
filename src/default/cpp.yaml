@@ -59,6 +59,11 @@
     foreground: _blue
     fontStyle: italic
 
+- scope: documentation.keyword.tparam.cpp
+  settings:
+    foreground: _light-magenta
+    fontStyle: ""
+
 - scope: documentation.keyword.param.cpp
   settings:
     foreground: _white
