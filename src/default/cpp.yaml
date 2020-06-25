@@ -53,3 +53,13 @@
   settings:
     foreground: _blue
     fontStyle: italic
+
+- scope: documentation.keyword.match.cpp
+  settings:
+    foreground: _blue
+    fontStyle: italic
+
+- scope: documentation.keyword.param.cpp
+  settings:
+    foreground: _white
+    fontStyle: ""
