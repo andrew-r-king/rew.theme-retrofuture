@@ -68,3 +68,8 @@
   settings:
     foreground: _white
     fontStyle: ""
+
+- scope: keyword.control.concept.cpp
+  settings:
+    foreground: _light-green
+    fontStyle: bold
