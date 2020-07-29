@@ -3,6 +3,8 @@ _white: '#ffffff'
 _black: '#000000'
 
 _base-gray: '#8599b3'
+_med-gray: '#587e92'
+_dark-gray: '#465173'
 
 _black-blue: '#0c0e12'
 

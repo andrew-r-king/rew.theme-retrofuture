@@ -26,4 +26,4 @@
 
 - scope: graphql.description.SINGLELINE string.description.graphql, graphql.description.SINGLELINE punctuation.definition.string.graphql
   settings:
-    foreground: "#465173"
+    foreground: _dark-gray

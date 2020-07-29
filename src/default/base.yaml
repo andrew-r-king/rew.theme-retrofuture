@@ -18,7 +18,7 @@ tokenColors:
 
   - scope: comment
     settings:
-      foreground: "#465173"
+      foreground: _dark-gray
       fontStyle: italic
 
   - scope: variable
@@ -74,7 +74,7 @@ tokenColors:
 
   - scope: punctuation.definition.comment
     settings:
-      foreground: "#465173"
+      foreground: _dark-gray
       fontStyle: italic
 
   - scope: constant.language.boolean

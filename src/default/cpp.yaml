@@ -51,12 +51,12 @@
 
 - scope: documentation.line.triple-slash.cpp, documentation.block.c, punctuation.definition.documentation.cpp, punctuation.definition.documentation.begin.cpp, punctuation.definition.documentation.end.cpp
   settings:
-    foreground: _blue
+    foreground: _med-gray
     fontStyle: italic
 
 - scope: documentation.keyword.match.cpp
   settings:
-    foreground: _blue
+    foreground: _med-gray
     fontStyle: italic
 
 - scope: documentation.keyword.tparam.cpp
@@ -68,6 +68,16 @@
   settings:
     foreground: _white
     fontStyle: ""
+
+- scope: documentation.keyword.storage.cpp
+  settings:
+    foreground: _orange
+    fontStyle: bold
+
+- scope: documentation.keyword.sys-types.cpp
+  settings:
+    foreground: _light-blue
+    fontStyle: bold
 
 - scope: keyword.control.concept.cpp
   settings:
