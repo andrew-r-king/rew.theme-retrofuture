@@ -19,7 +19,7 @@ colors:
   badge.foreground: _white
   badge.background: _magenta
   #
-  dropdown.background:  '#ffffff09'
+  dropdown.background:  '#14161a'
   dropdown.listBackground:  '#ffffff09'
   dropdown.border: '#b0b1d80f'
   dropdown.foreground:  '#ffffff99'
