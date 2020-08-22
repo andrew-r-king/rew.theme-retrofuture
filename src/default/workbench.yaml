@@ -1,6 +1,8 @@
 colors:
   focusBorder: '#00000000'
   #
+  icon.foreground: _light-indigo
+  #
   input.background: '#ffffff09'
   input.border: '#b0b1d80f'
   inputOption.activeBorder: _light-indigo
@@ -16,6 +18,11 @@ colors:
   #
   badge.foreground: _white
   badge.background: _magenta
+  #
+  dropdown.background:  '#ffffff09'
+  dropdown.listBackground:  '#ffffff09'
+  dropdown.border: '#b0b1d80f'
+  dropdown.foreground:  '#ffffff99'
   #
   scrollbar.shadow: '#00000067'
   scrollbarSlider.background: '#ffffff09'
@@ -95,3 +102,25 @@ colors:
   editorOverviewRuler.infoForeground: _light-green
   #
   quickInput.background: '#14161a'
+  #
+  editor.stackFrameHighlightBackground: '#46517377'
+  debugTokenExpression.name: _light-blue
+  debugTokenExpression.value: _light-pink
+  debugTokenExpression.string: _light-green
+  debugTokenExpression.boolean: _orange
+  debugTokenExpression.number: _cyan
+  debugTokenExpression.error: _magenta
+  #
+  debugIcon.breakpointForeground: _magenta
+  debugIcon.breakpointCurrentStackframeForeground: _light-blue
+  debugIcon.startForeground: _magenta
+  debugIcon.pauseForeground: _orange
+  debugIcon.stopForeground: _magenta
+  debugIcon.continueForeground: _light-green
+  debugIcon.stepOverForeground: _cyan
+  debugIcon.stepIntoForeground: _light-blue
+  debugIcon.stepOutForeground: _light-blue
+  debugIcon.restartForeground: _light-indigo
+  #
+  debugExceptionWidget.background: _black-blue
+  debugExceptionWidget.border: _magenta
