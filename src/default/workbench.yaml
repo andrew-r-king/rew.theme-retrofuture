@@ -1,8 +1,6 @@
 colors:
   focusBorder: '#00000000'
   #
-  icon.foreground: _light-indigo
-  #
   input.background: '#ffffff09'
   input.border: '#b0b1d80f'
   inputOption.activeBorder: _light-indigo
