@@ -13,3 +13,8 @@
   settings:
     foreground: _blue
     fontStyle: ""
+
+- scope: keyword.other.qml
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
