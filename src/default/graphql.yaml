@@ -1,6 +1,6 @@
---- # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
 # GraphQL
+# -----------------------------------------------------------------------------
 - scope: punctuation.operation.graphql, meta.brace.square.graphql, punctuation.colon.graphql, meta.brace.round.graphql
   settings:
     foreground: _base-gray

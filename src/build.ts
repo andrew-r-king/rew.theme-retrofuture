@@ -27,6 +27,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
         yamlFile("makefile"),
         yamlFile("markdown"),
         yamlFile("python"),
+        yamlFile("qtqml"),
         yamlFile("regex"),
         yamlFile("shell"),
         yamlFile("typescript"),

@@ -1,0 +1,10 @@
+# -----------------------------------------------------------------------------
+# Qt QML
+# -----------------------------------------------------------------------------
+- scope: source.qml
+  settings:
+    foreground: _base-gray
+
+- scope: variable.parameter.qml
+  settings:
+    foreground: _white
