@@ -8,3 +8,8 @@
 - scope: variable.parameter.qml
   settings:
     foreground: _white
+
+- scope: keyword.control.qml
+  settings:
+    foreground: _blue
+    fontStyle: ""
