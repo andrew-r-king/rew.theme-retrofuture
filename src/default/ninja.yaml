@@ -1,0 +1,15 @@
+# -----------------------------------------------------------------------------
+# Ninja
+# -----------------------------------------------------------------------------
+- scope: keyword.operator.ninja
+  settings:
+    foreground: _base-gray
+
+- scope: keyword.other.ninja
+  settings:
+    foreground: _light-blue
+
+- scope: variable.other.ninja
+  settings:
+    foreground: _magenta
+
