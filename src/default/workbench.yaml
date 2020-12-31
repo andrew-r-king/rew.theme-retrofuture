@@ -73,24 +73,24 @@ colors:
   statusBar.debuggingForeground: _black
   #
   terminal.background: _black
-  terminalCursor.background: '#E6E6E6'
-  terminalCursor.foreground: '#FF4B82'
-  terminal.ansiBlack: '#323232'
-  terminal.ansiBlue: _blue
-  terminal.ansiBrightBlack: '#757575'
-  terminal.ansiBrightBlue: '#6FC1FF'
-  terminal.ansiBrightCyan: '#BCAAFE'
-  terminal.ansiBrightGreen: '#19f9d8'
-  terminal.ansiBrightMagenta: '#FF9AC1'
-  terminal.ansiBrightRed: '#FF2C6D'
+  terminalCursor.background: _light-pink
+  terminalCursor.foreground: _light-pink
+  terminal.ansiBlack: '#222232'
+  terminal.ansiBlue: _light-blue
+  terminal.ansiBrightBlack: '#222232'
+  terminal.ansiBrightBlue: _light-blue
+  terminal.ansiBrightCyan: _cyan
+  terminal.ansiBrightGreen: _light-green
+  terminal.ansiBrightMagenta: _light-pink
+  terminal.ansiBrightRed: _light-magenta
   terminal.ansiBrightWhite: '#E6E6E6'
-  terminal.ansiBrightYellow: '#FFCC95'
+  terminal.ansiBrightYellow: _orange
   terminal.ansiCyan: _cyan
   terminal.ansiGreen: _light-green
   terminal.ansiMagenta: _light-pink
-  terminal.ansiRed: _light-magenta
+  terminal.ansiRed: _magenta
   terminal.ansiWhite: '#DEDEDE'
-  terminal.ansiYellow: _light-yellow
+  terminal.ansiYellow: _orange
   #
   editorError.foreground: _magenta
   editorWarning.foreground: _orange
