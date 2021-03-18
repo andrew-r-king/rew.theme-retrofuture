@@ -15,7 +15,7 @@
     foreground: _magenta
     fontStyle: bold
 
-- scope: meta.preprocessor.cs, keyword.preprocessor.if.cs
+- scope: meta.preprocessor.cs, keyword.preprocessor.if.cs, keyword.preprocessor.endif.cs, keyword.preprocessor.else.cs
   settings:
     foreground: _magenta
     fontStyle: ""
