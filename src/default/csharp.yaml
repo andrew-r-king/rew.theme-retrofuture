@@ -15,12 +15,22 @@
     foreground: _magenta
     fontStyle: bold
 
+- scope: meta.preprocessor.cs, keyword.preprocessor.if.cs
+  settings:
+    foreground: _magenta
+    fontStyle: ""
+
 - scope: storage.modifier.cs
   settings:
     foreground: _light-indigo
     fontStyle: bold
 
-- scope: storage.type.cs, entity.name.variable.enum-member.cs
+- scope: keyword.other.base.cs
+  settings:
+      foreground: _blue
+      fontStyle: bold
+
+- scope: storage.type.cs, entity.name.variable.enum-member.cs, entity.name.type.namespace.cs
   settings:
     foreground: _light-magenta
     fontStyle: ""
