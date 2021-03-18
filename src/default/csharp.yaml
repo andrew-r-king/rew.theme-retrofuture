@@ -1,0 +1,27 @@
+# -----------------------------------------------------------------------------
+# C#
+# -----------------------------------------------------------------------------
+- scope: source.cs
+  settings:
+    foreground: _base-gray
+
+- scope: entity.name.type.namespace.cs, entity.name.variable.field.cs, entity.name.variable.local.cs, entity.name.variable.parameter.cs, entity.name.variable.property.cs
+  settings:
+    foreground: _white
+    fontStyle: ""
+
+- scope: keyword.other.using.cs, constant.language.null.cs
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+
+- scope: storage.modifier.cs
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
+
+- scope: storage.type.cs, entity.name.variable.enum-member.cs
+  settings:
+    foreground: _light-magenta
+    fontStyle: ""
+

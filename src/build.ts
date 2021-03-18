@@ -15,6 +15,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
     base.tokenColors = base.tokenColors.concat(
         yamlFile("cmake"),
         yamlFile("cpp"),
+        yamlFile("csharp"),
         yamlFile("css"),
         yamlFile("diff"),
         yamlFile("glsl"),
