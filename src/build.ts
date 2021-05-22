@@ -18,6 +18,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
         yamlFile("csharp"),
         yamlFile("css"),
         yamlFile("diff"),
+        yamlFile("env"),
         yamlFile("glsl"),
         yamlFile("graphql"),
         yamlFile("hexdump"),
