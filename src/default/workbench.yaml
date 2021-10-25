@@ -76,22 +76,22 @@ colors:
   terminalCursor.background: _light-pink
   terminalCursor.foreground: _light-pink
   #
-  terminal.ansiBlack: '#5d5d7b'
-  terminal.ansiBrightBlack: '#5d5d7b'
-  terminal.ansiWhite: '#dedede'
-  terminal.ansiBrightWhite: '#e6e6e6'
-  terminal.ansiBlue: _light-blue
-  terminal.ansiBrightBlue: _light-blue
-  terminal.ansiCyan: _cyan
-  terminal.ansiBrightCyan: _cyan
-  terminal.ansiGreen: _light-green
-  terminal.ansiBrightGreen: _light-green
-  terminal.ansiMagenta: _light-pink
-  terminal.ansiBrightMagenta: _light-pink
-  terminal.ansiRed: _magenta
-  terminal.ansiBrightRed: _magenta
-  terminal.ansiYellow: _orange
-  terminal.ansiBrightYellow: _orange
+  terminal.ansiBlack: '#333342'
+  terminal.ansiBrightBlack: '#5D5D7B'
+  terminal.ansiWhite: '#DEDEDE'
+  terminal.ansiBrightWhite: '#FFFFFF'
+  terminal.ansiBlue: '#1581FF'
+  terminal.ansiBrightBlue: '#52A4FF'
+  terminal.ansiCyan: '#03C7C7'
+  terminal.ansiBrightCyan: '#0AFAFA'
+  terminal.ansiGreen: '#10CE58'
+  terminal.ansiBrightGreen: '#4EFB8F'
+  terminal.ansiMagenta: '#DF40ED'
+  terminal.ansiBrightMagenta: '#F26CFF'
+  terminal.ansiRed: '#EE2168'
+  terminal.ansiBrightRed: '#FF4A98'
+  terminal.ansiYellow: '#FF9B1B'
+  terminal.ansiBrightYellow: '#FDC24A'
   #
   editorError.foreground: _magenta
   editorWarning.foreground: _orange
