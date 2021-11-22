@@ -1,18 +1,23 @@
 # -----------------------------------------------------------------------------
 # C/C++
 # -----------------------------------------------------------------------------
-- scope: string.quoted.double.raw.cpp
+- scope: string.quoted.double.raw.cpp, string.quoted.other.lt-gt.import.cpp, documentation.keyword.param.cpp, string.named.import.cpp
   settings:
     foreground: _white
     fontStyle: ""
 
-- scope: keyword.operator.c
+- scope: keyword.operator.c, string.quoted.other.lt-gt.import.cpp punctuation.definition.string
   settings:
     foreground: _base-gray
 
-- scope: keyword.control.directive, entity.name.function.preprocessor.c, string.quoted.double.include.c punctuation.definition.string, string.quoted.double.include.c, string.quoted.other.lt-gt.include.c punctuation.definition.string, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp, meta.string.literal.name.cpp
+- scope: keyword.control.directive, entity.name.function.preprocessor.c, string.quoted.double.include.c punctuation.definition.string, string.quoted.double.include.c, string.quoted.other.lt-gt.include.c punctuation.definition.string, string.quoted.other.lt-gt.include.c, entity.name.macro.cpp, meta.string.literal.name.cpp,
   settings:
     foreground: _magenta
+    fontStyle: ""
+
+- scope: string.quoted.double.import.cpp punctuation.definition.string, string.quoted.double.import.cpp
+  settings:
+    foreground: _light-green
     fontStyle: ""
 
 - scope: storage.modifier.c, storage.modifier.cpp, storage.modifier.label.c
@@ -62,11 +67,6 @@
 - scope: documentation.keyword.tparam.cpp
   settings:
     foreground: _light-magenta
-    fontStyle: ""
-
-- scope: documentation.keyword.param.cpp
-  settings:
-    foreground: _white
     fontStyle: ""
 
 - scope: documentation.keyword.storage.cpp
