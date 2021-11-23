@@ -1,7 +1,7 @@
 # -----------------------------------------------------------------------------
 # C/C++
 # -----------------------------------------------------------------------------
-- scope: string.quoted.double.raw.cpp, string.quoted.other.lt-gt.import.cpp, documentation.keyword.param.cpp, string.named.import.cpp
+- scope: string.quoted.double.raw.cpp, string.quoted.other.lt-gt.import.cpp, documentation.keyword.param.cpp, string.named.import.cpp, string.named.export.cpp
   settings:
     foreground: _white
     fontStyle: ""
