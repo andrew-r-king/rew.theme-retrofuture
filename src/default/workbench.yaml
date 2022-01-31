@@ -72,6 +72,9 @@ colors:
   statusBar.debuggingBackground: _magenta
   statusBar.debuggingForeground: _black
   #
+  statusBarItem.remoteBackground: _light-green
+  statusBarItem.remoteForeground: _black
+  #
   terminal.background: _black
   terminalCursor.background: _light-pink
   terminalCursor.foreground: _light-pink
