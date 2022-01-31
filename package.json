@@ -1,6 +1,6 @@
 {
     "name": "theme-retrofuture",
-    "displayName": "Retro Future Theme (With C++)",
+    "displayName": "Retro Future Theme",
     "description": "Retro Future Theme for Visual Studio Code.",
     "version": "0.0.1",
     "publisher": "rewrking",
@@ -26,7 +26,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Retro Future (With C++)",
+                "label": "Retro Future",
                 "uiTheme": "vs-dark",
                 "path": "./dist/RetroFuture.json"
             }
