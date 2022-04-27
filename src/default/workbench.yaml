@@ -31,11 +31,15 @@ colors:
   editor.foreground: _white
   editor.selectionBackground: '#333470'
   editor.lineHighlightBackground: '#ccccff07'
+  #
   editorCursor.foreground: '#6a819e'
   editorWhitespace.foreground: '#282f40'
   editorLineNumber.foreground: '#ccccff31'
   editorIndentGuide.background: '#000000aa'
   editorIndentGuide.activeBackground: _light-pink
+  editorInlayHint.background: _black-blue
+  editorInlayHint.foreground: _med-gray
+  #
   tree.indentGuidesStroke: _light-pink
   #
   tab.activeBackground: '#15171b'
