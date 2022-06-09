@@ -1,13 +1,23 @@
 # -----------------------------------------------------------------------------
 # TCL
 # -----------------------------------------------------------------------------
-- scope: source.tcl support.type, meta.brace.curly.proc.args.open.tcl, meta.brace.curly.proc.args.close.tcl, meta.brace.curly.open.tcl, meta.brace.curly.close.tcl
+- scope: source.tcl support.type, meta.brace.curly.proc.args.open.tcl, meta.brace.curly.proc.args.close.tcl, meta.brace.curly.open.tcl, meta.brace.curly.close.tcl, meta.expression.start.tcl, meta.expression.end.tcl
   settings:
     foreground: _base-gray
 
 - scope: source.tcl variable
   settings:
     foreground: _white
+
+- scope: source.tcl punctuation.italic.variable
+  settings:
+    foreground: _white
+    fontStyle: italic
+
+- scope: source.tcl meta.constant.punctuation.italic
+  settings:
+    foreground: _orange
+    fontStyle: bold
 
 - scope: source.tcl meta.curly.enclosed variable
   settings:
@@ -25,10 +35,6 @@
   settings:
     foreground: _light-magenta
 
-- scope: source.tcl entity.function.name.tcl meta.constant.opt.start.tcl
-  settings:
-    foreground: _base-gray
-
 - scope: source.tcl meta.curly.enclosed entity.function.name.tcl
   settings:
     foreground: _blue
@@ -40,3 +46,11 @@
 - scope: support.type.opt.tcl
   settings:
     foreground: _light-pink
+
+- scope: support.type.opt.tcl meta.constant.opt.start.tcl
+  settings:
+    foreground: _base-gray
+
+- scope: keyword.control.expr.unbraced.tcl, keyword.control.format.tcl
+  settings:
+    foreground: _light-indigo
