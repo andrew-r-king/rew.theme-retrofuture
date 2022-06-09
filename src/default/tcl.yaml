@@ -15,8 +15,24 @@
 
 - scope: source.tcl variable.name
   settings:
-    foreground: _light-blue
+    foreground: _white
 
 - scope: entity.function.name.tcl
   settings:
     foreground: _blue
+
+- scope: source.tcl entity.function.name.tcl
+  settings:
+    foreground: _light-magenta
+
+- scope: source.tcl meta.curly.enclosed entity.function.name.tcl
+  settings:
+    foreground: _blue
+
+- scope: bare.string.tcl
+  settings:
+    foreground: _light-green
+
+- scope: support.type.opt.tcl
+  settings:
+    foreground: _light-pink
