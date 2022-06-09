@@ -33,6 +33,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
         yamlFile("qtqml"),
         yamlFile("regex"),
         yamlFile("shell"),
+        yamlFile("tcl"),
         yamlFile("typescript"),
         yamlFile("yaml")
     );

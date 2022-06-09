@@ -1,0 +1,14 @@
+# -----------------------------------------------------------------------------
+# TCL
+# -----------------------------------------------------------------------------
+- scope: source.tcl support.type, meta.brace.curly.proc.args.open.tcl, meta.brace.curly.proc.args.close.tcl, meta.brace.curly.open.tcl, meta.brace.curly.close.tcl
+  settings:
+    foreground: _base-gray
+
+- scope: source.tcl variable
+  settings:
+    foreground: _light-magenta
+
+- scope: entity.function.name.tcl
+  settings:
+    foreground: _blue
