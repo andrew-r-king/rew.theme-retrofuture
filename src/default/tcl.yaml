@@ -25,13 +25,17 @@
   settings:
     foreground: _light-magenta
 
+- scope: source.tcl entity.function.name.tcl meta.constant.opt.start.tcl
+  settings:
+    foreground: _base-gray
+
 - scope: source.tcl meta.curly.enclosed entity.function.name.tcl
   settings:
     foreground: _blue
 
-- scope: bare.string.tcl
+- scope: source.tcl meta.constant.numeric
   settings:
-    foreground: _light-green
+    foreground: _cyan
 
 - scope: support.type.opt.tcl
   settings:
