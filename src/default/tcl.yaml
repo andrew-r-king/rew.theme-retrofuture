@@ -7,7 +7,15 @@
 
 - scope: source.tcl variable
   settings:
-    foreground: _light-magenta
+    foreground: _white
+
+- scope: source.tcl meta.curly.enclosed variable
+  settings:
+    foreground: _magenta
+
+- scope: source.tcl variable.name
+  settings:
+    foreground: _light-blue
 
 - scope: entity.function.name.tcl
   settings:
