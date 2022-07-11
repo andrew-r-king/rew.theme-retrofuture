@@ -20,7 +20,7 @@
     foreground: _blue
     fontStyle: bold
 
-- scope: entity.name.type.primitive, keyword.operator.question.rust, meta.use.rust keyword.operator.math.rust, keyword.operator.range.rust, constant.language.bool.rust
+- scope: entity.name.type.primitive, keyword.operator.question.rust, meta.use.rust keyword.operator.math.rust, keyword.operator.range.rust, constant.language.bool.rust, meta.interpolation.rust
   settings:
     foreground: _orange
     fontStyle: bold
@@ -30,7 +30,12 @@
     foreground: _light-blue
     fontStyle: bold
 
-- scope: meta.use.rust, entity.name.namespace.rust
+- scope: meta.use.rust entity.name.type.rust
+  settings:
+    foreground: _white
+    fontStyle: ""
+
+- scope: meta.use.rust, meta.use.rust entity.name.namespace.rust, entity.name.namespace.rust, entity.name.module.rust
   settings:
     foreground: _light-magenta
     fontStyle: ""
