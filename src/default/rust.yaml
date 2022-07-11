@@ -20,7 +20,7 @@
     foreground: _blue
     fontStyle: bold
 
-- scope: entity.name.type.primitive, keyword.operator.question.rust, meta.use.rust keyword.operator.math.rust, keyword.operator.range.rust
+- scope: entity.name.type.primitive, keyword.operator.question.rust, meta.use.rust keyword.operator.math.rust, keyword.operator.range.rust, constant.language.bool.rust
   settings:
     foreground: _orange
     fontStyle: bold
@@ -39,3 +39,8 @@
   settings:
     foreground: _light-yellow
     fontStyle: bold
+
+- scope: punctuation.definition.char.rust
+  settings:
+    foreground: _light-green
+    fontStyle: ""
