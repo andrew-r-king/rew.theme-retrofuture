@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# Rust
+# -----------------------------------------------------------------------------
+- scope: keyword.operator
+  settings:
+    foreground: _base-gray
+
+- scope: storage.modifier.mut.rust, keyword.other.rust
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
+
+- scope: meta.use.rust keyword.other.rust, meta.function.call.rust keyword.other.rust
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+
+- scope: variable.language.self.rust
+  settings:
+    foreground: _blue
+    fontStyle: bold
+
+- scope: entity.name.type.primitive, keyword.operator.question.rust, meta.use.rust keyword.operator.math.rust, keyword.operator.range.rust
+  settings:
+    foreground: _orange
+    fontStyle: bold
+
+- scope: entity.name.type.numeric.rust
+  settings:
+    foreground: _light-blue
+    fontStyle: bold
+
+- scope: meta.use.rust, entity.name.namespace.rust
+  settings:
+    foreground: _light-magenta
+    fontStyle: ""
+
+- scope: entity.name.function.macro.rust, entity.name.type.result.rust
+  settings:
+    foreground: _light-yellow
+    fontStyle: bold
