@@ -1,9 +1,9 @@
 # -----------------------------------------------------------------------------
 # Rust
 # -----------------------------------------------------------------------------
-- scope: keyword.operator
-  settings:
-    foreground: _base-gray
+# - scope: keyword.operator
+#   settings:
+#     foreground: _base-gray
 
 - scope: storage.modifier.mut.rust, keyword.other.rust
   settings:
