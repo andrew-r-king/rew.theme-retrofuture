@@ -1,0 +1,22 @@
+# -----------------------------------------------------------------------------
+# CSS
+# -----------------------------------------------------------------------------
+- scope: keyword.package.go, keyword.import.go, constant.language.go
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+
+- scope: variable.other.assignment.go
+  settings:
+    foreground: _light-magenta
+    fontStyle: ""
+
+- scope: keyword.interface.go, keyword.channel.go
+  settings:
+    foreground: _light-indigo
+    fontStyle: bold
+
+- scope: constant.other.placeholder.go
+  settings:
+    foreground: _light-blue
+    fontStyle: bold

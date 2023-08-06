@@ -20,6 +20,7 @@ const buildTheme = (inFolder: string, inOutputFile: string): void => {
         yamlFile("diff"),
         yamlFile("env"),
         yamlFile("glsl"),
+        yamlFile("go"),
         yamlFile("graphql"),
         yamlFile("hexdump"),
         yamlFile("javascript"),
