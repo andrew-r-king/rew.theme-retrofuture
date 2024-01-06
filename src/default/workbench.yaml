@@ -46,8 +46,11 @@ colors:
   tab.inactiveBackground: _black-blue
   tab.inactiveForeground: '#ffffff88'
   tab.border: '#ffffff00'
-  tab.activeBorder: _light-pink
-  tab.activeBorderTop: '#ffffff19'
+  # tab.activeBorder: _light-pink
+  # tab.activeBorderTop: '#ffffff19'
+  tab.activeBorder: '#14161a'
+  tab.activeBorderTop: _light-pink
+
   #
   editorGroupHeader.tabsBackground: _black-blue
   editorGroupHeader.tabsBorder: '#14161a'
