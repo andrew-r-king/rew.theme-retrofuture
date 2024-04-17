@@ -134,3 +134,12 @@ colors:
   #
   debugExceptionWidget.background: _black-blue
   debugExceptionWidget.border: _magenta
+  #
+  # Extensions
+  errorLens.errorBackground: "#ff4a9812"
+  errorLens.errorForeground: _magenta
+  errorLens.warningBackground: "#fef67912"
+  errorLens.warningForeground: _light-yellow
+  errorLens.infoBackground: "#45B8FF12"
+  errorLens.infoForeground: _light-blue
+
