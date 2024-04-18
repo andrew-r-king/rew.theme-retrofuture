@@ -105,11 +105,11 @@ colors:
   #
   editorError.foreground: _magenta
   editorWarning.foreground: _orange
-  editorInfo.foreground: _light-green
+  editorInfo.foreground: _light-blue
   editorHint.foreground: _light-indigo
   editorOverviewRuler.errorForeground: _magenta
   editorOverviewRuler.warningForeground: _orange
-  editorOverviewRuler.infoForeground: _light-green
+  editorOverviewRuler.infoForeground: _light-blue
   #
   quickInput.background: '#14161a'
   #
