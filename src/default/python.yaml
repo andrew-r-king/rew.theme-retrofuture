@@ -1,11 +1,11 @@
 # -----------------------------------------------------------------------------
 # Python
 # -----------------------------------------------------------------------------
-- scope: meta.function-call.generic.python, meta.function-call.python
+- scope: meta.function-call.generic.python, meta.function-call.python, entity.name.function.python
   settings:
     foreground: _blue
 
-- scope: entity.name.type.class.python, entity.name.function.python, support.variable.magic.python
+- scope: entity.name.type.class.python, support.variable.magic.python, meta.function.parameters.python
   settings:
     foreground: _light-magenta
     fontStyle: ""
@@ -15,12 +15,12 @@
     foreground: _light-yellow
     fontStyle: bold
 
-- scope: meta.function-call.arguments.python, meta.item-access.arguments.python
+- scope: variable.parameter.function.language.python, meta.function-call.arguments.python, meta.item-access.arguments.python, variable.parameter.function-call.python
   settings:
     foreground: _white
     fontStyle: ""
 
-- scope: variable.parameter.function.language.python, support.type.python
+- scope: support.type.python, entity.name.function.decorator.python
   settings:
     foreground: _light-indigo
     fontStyle: ""
@@ -35,7 +35,7 @@
     foreground: _blue
     fontStyle: italic
 
-- scope: meta.item-access.python, variable.parameter.function-call.python
+- scope: meta.item-access.python, meta.attribute.python
   settings:
     foreground: _light-pink
     fontStyle: ""
@@ -49,3 +49,8 @@
   settings:
     foreground: _light-pink
     fontStyle: ""
+
+- scope: constant.language.python
+  settings:
+    foreground: _magenta
+    fontStyle: bold
