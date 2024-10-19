@@ -5,11 +5,26 @@
   settings:
     foreground: _light-indigo
 
+- scope: support.function.standard.glsl
+  settings:
+    foreground: _light-yellow
+    fontStyle: bold
+
 - scope: support.variable.glsl
   settings:
     foreground: _light-green
 
-- scope: keyword.control.hlsl
+- scope: keyword.directive.preprocessor.glsl, entity.name.function.glsl
   settings:
     foreground: _magenta
+    fontStyle: ""
+
+- scope: keyword.control.import.glsl
+  settings:
+    foreground: _magenta
+    fontStyle: bold
+
+- scope: variable.other.member.glsl
+  settings:
+    foreground: _light-pink
     fontStyle: ""
