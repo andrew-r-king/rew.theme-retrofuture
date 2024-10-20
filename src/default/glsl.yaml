@@ -10,7 +10,7 @@
     foreground: _light-yellow
     fontStyle: bold
 
-- scope: support.variable.glsl
+- scope: support.variable.glsl, support.constant.layout.glsl
   settings:
     foreground: _light-green
 
@@ -28,3 +28,7 @@
   settings:
     foreground: _light-pink
     fontStyle: ""
+
+- scope: keyword.operator.comparative.glsl
+  settings:
+    foreground: _base-gray
